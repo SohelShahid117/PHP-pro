@@ -21,4 +21,29 @@ $person_address = "Chittagong";
 echo $person_name."<br/>";
 echo $person_cell."<br/>";
 
+echo "integer support : binary, decimal, ocatl ,hexadecimal number system <br/>";
+
+$decimal_number = 5;
+$decimal_number2 = -5;
+$binary_number=0b101;
+$octal_number=0o101;
+$hexadecimal_number=0x5f;
+
+echo $decimal_number."<br/>";
+echo $decimal_number2."<br/>";
+echo $binary_number."<br/>";
+echo $octal_number."<br/>";
+echo $hexadecimal_number."<br/>";
+echo var_dump($decimal_number)."<br/>";
+echo var_dump($hexadecimal_number)."<br/>";
+
+echo var_dump($person_name)."<br/>";
+echo var_dump($decimal_number2)."<br/>";
+echo "var_dump() shows both data_type & value of a variable<br/>";
+
+$cgpa = 3.45;
+echo var_dump($cgpa)."<br/>";
+
+$engrSohel = true;
+echo var_dump($engrSohel)."<br/>";
 ?>
