@@ -46,4 +46,8 @@ echo var_dump($cgpa)."<br/>";
 
 $engrSohel = true;
 echo var_dump($engrSohel)."<br/>";
+
+$name = null;
+var_dump($name);
+echo "<br/>";
 ?>
