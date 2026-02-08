@@ -13,7 +13,16 @@
     <?php
     $age = 18;
     $result = $age >=18?"Voter":"not voter";
-    echo $result;
+    echo $result."<br/>";
+
+    if($age>=21){
+        echo "u can marry <br/>";
+
+    }else{
+         echo "u can't marry <br/>";
+    }
+
+    echo date("H")."<br/>";
     ?>
 </body>
 </html>
