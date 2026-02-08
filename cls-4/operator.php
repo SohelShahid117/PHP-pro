@@ -1,13 +1,15 @@
 <?php
 /*
 operator r :
-1.arithmetic operator
-2.assignment opeartor
-3.comparison operator
+1.arithmetic operator(+,-,*,/,%)
+2.assignment opeartor(=,+=,-=,*=,/=,%=)
+3.comparison operator(==,===,!=,<>	Not equal,!==,>,>=,<,<=)
 4.increment/decrement operator
 5.logical operator
-6.string operator
+6.string operator(., .=)
 7.array operator
+8.conditional assignment operator / ternary operator
+
 
 */
 
