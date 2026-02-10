@@ -34,4 +34,22 @@ foreach($person_info as $key=>$val){
     echo $val."<br/>";
 }
 
+$amar_info = array(
+    "name"=>"Sohel",
+    "address"=>array(
+        "city"=>"ctg",
+        "vill"=>"pomra",
+        "post"=>4370,
+        "area"=>array(
+        "road"=>20,
+        "house"=>40
+    )
+    )
+);
+
+var_dump($amar_info);
+echo $amar_info["address"]["city"]."<br/>";
+echo $amar_info["address"]["vill"]."<br/>";
+echo $amar_info["address"]["area"]["road"]."<br/>";
+
 ?>
