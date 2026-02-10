@@ -28,4 +28,13 @@ switch($current_day){
     default:
         echo "Invalid day";
 }
+
+include("fn.php");
+myName();
+
+priceCalculate();
+myname();
+
+$name2 = getFullName("Sharmin","Sumi");
+echo $name2."<br/>"; 
 ?>
