@@ -37,7 +37,9 @@ $PERSON_INFO2= array(
 
 echo "<br/>";
 
-$match_val = array_intersect($PERSON_INFO,$PERSON_INFO2);
+// $match_val = array_intersect($PERSON_INFO,$PERSON_INFO2);
+// $match_val = array_intersect_assoc($PERSON_INFO,$PERSON_INFO2);
+$match_val = array_intersect_key($PERSON_INFO,$PERSON_INFO2);
 var_dump($match_val);
 
 ?>
