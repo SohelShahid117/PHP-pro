@@ -24,10 +24,22 @@
 <input type="radio" value="Female" id="gender" name="gender">Female <br/><br/>
 <input type="radio" value="Other" id="gender" name="gender">Other<br/><br/>
 
+<label for="bestTeacher">Best Teacher : </label>
+<input type="checkbox" name="bestTeacher[]" id="bestTeacher" value="Sohel">Sohel
+<input type="checkbox" name="bestTeacher[]" id="bestTeacher" value="Shahid">Shahid
+<input type="checkbox" name="bestTeacher[]" id="bestTeacher" value="Abdullah">Abdullah<br/><br/>
+<label for="courseFee">Course Fee :</label>
+<input type="number" name="courseFee" id="courseFee"><br/><br/>
+<label for="contact">Contact :</label>
+<input type="tel" name="contact" id="contact"><br/><br/>
+
+<input type="submit" value="Submit">
+
+
 
 
 <br/>
-<button type="submit">Submit</button>
+<!-- <button type="submit">Submit</button> -->
 </form>
     
 </body>
