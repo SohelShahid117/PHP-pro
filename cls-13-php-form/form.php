@@ -32,8 +32,17 @@
 <input type="number" name="courseFee" id="courseFee"><br/><br/>
 <label for="contact">Contact :</label>
 <input type="tel" name="contact" id="contact"><br/><br/>
+<label for="birthdate">Birthdate :</label>
+<input type="date" name="birthdate" id="birthdate"><br/><br/>
+<label for="color">Color :</label>
+<input type="color" name="color" id="color"><br/><br/>
+<label for="time">Office Time :</label>
+<input type="time" name="time" id="time"><br/><br/>
+<label for="websiteurl">Website Url :</label>
+<input type="url" name="websiteurl" id="websiteurl"><br/><br/>
 
 <input type="submit" value="Submit">
+<input type="reset" value="Reset">
 
 
 
