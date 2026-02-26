@@ -8,7 +8,7 @@
 <body>
 
 <h1>Admission Form</h1>
-<form action="save.php" method="post"> 
+<form action="save.php" method="post" enctype="multipart/form-data"> 
     <!-- data save korar somoi method hobe post -->
 
 <label for="username">Username : </label>
@@ -40,6 +40,11 @@
 <input type="time" name="time" id="time"><br/><br/>
 <label for="websiteurl">Website Url :</label>
 <input type="url" name="websiteurl" id="websiteurl"><br/><br/>
+<label for="image">image:</label>
+<input type="file" name="image" id="image"><br/><br/>
+<label for="month">Month of Joining:</label>
+<input type="month" name="month" id="month"><br/><br/>
+<input type="hidden" name="hiddenIP" value="<?php echo $_SERVER['REMOTE_ADDR']?>">
 
 <input type="submit" value="Submit">
 <input type="reset" value="Reset">

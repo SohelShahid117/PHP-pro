@@ -11,6 +11,9 @@ $birthdate = $_POST['birthdate'];
 $color = $_POST['color'];
 $time = $_POST['time'];
 $websiteurl = $_POST['websiteurl'];
+$img = $_FILES['image'];
+$month = $_POST['month'];
+$ip = $_POST['hiddenIP'];
 
 
 
@@ -27,6 +30,9 @@ echo "<p>$birthdate</p>";
 echo "<p>$color</p>";
 echo "<p>$time</p>";
 echo "<p>$websiteurl</p>";
+var_dump($img);
+echo "<p>$month</p>";
+echo "<p>IP hoilo - $ip</p>";
 
 
 ?>
