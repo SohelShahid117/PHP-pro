@@ -14,6 +14,8 @@ $websiteurl = $_POST['websiteurl'];
 $img = $_FILES['image'];
 $month = $_POST['month'];
 $ip = $_POST['hiddenIP'];
+$price_range = $_POST['price_range'];
+$search_data = $_POST['search_data'];
 
 
 
@@ -33,6 +35,9 @@ echo "<p>$websiteurl</p>";
 var_dump($img);
 echo "<p>$month</p>";
 echo "<p>IP hoilo - $ip</p>";
+echo "<p>price_range - $price_range</p>";
+echo "<p>search_data - $search_data</p>";
+
 
 
 ?>

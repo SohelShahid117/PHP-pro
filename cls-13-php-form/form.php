@@ -46,6 +46,11 @@
 <input type="month" name="month" id="month"><br/><br/>
 <input type="hidden" name="hiddenIP" value="<?php echo $_SERVER['REMOTE_ADDR']?>">
 
+<input type="range" name="price_range" min="1" max="500" id="">
+<input type="search" placeholder="search_data" name="search_data" id="">
+<input type="week" name="week_info" id="">
+<input type="datetime-local" name="local_dateTime" id="">
+
 <input type="submit" value="Submit">
 <input type="reset" value="Reset">
 
