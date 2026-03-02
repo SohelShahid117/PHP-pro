@@ -16,6 +16,7 @@ $month = $_POST['month'];
 $ip = $_POST['hiddenIP'];
 $price_range = $_POST['price_range'];
 $search_data = $_POST['search_data'];
+$course = $_POST['course'];
 
 
 
@@ -37,6 +38,8 @@ echo "<p>$month</p>";
 echo "<p>IP hoilo - $ip</p>";
 echo "<p>price_range - $price_range</p>";
 echo "<p>search_data - $search_data</p>";
+echo "<p>$course</p>";
+var_dump($course);
 
 
 

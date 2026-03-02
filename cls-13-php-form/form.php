@@ -50,6 +50,14 @@
 <input type="search" placeholder="search_data" name="search_data" id="">
 <input type="week" name="week_info" id="">
 <input type="datetime-local" name="local_dateTime" id="">
+<!-- <select name="course" id=""> -->
+<select name="course[]" id="" multiple>
+    <option value="" >slect your course</option>
+    <option value="frontend">frontend development</option>
+    <option value="backend">backend development</option>
+    <option value="fullstack" selected>fullstack development</option>
+</select>
+
 
 <input type="submit" value="Submit">
 <input type="reset" value="Reset">
