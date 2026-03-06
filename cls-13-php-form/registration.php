@@ -57,8 +57,13 @@ $( "#myform" ).validate({
     password: "required",
     password_again: {
       equalTo: "#password"
+    },
+   
+  },
+   messages:{
+        email:"sotik email dao",
+        price:"3000 takar product kinon"
     }
-  }
 });
 </script>
 </body>
